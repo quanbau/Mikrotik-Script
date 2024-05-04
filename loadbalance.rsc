@@ -1,4 +1,4 @@
-:put ("Can bang tai cho: ".[:set $pppcnt [/interface/pppoe-client/print count-only]]." PPPoE")
+:set $pppcnt [/interface/pppoe-client/print count-only]
 
 /interface list add name=LAN
 /interface list member add interface=BridgeLAN list=LAN
